@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytle.css">
+    <title>payment form</title>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+    <h1 class="main_form">payment Form</h1>
+    <p>Required fields are folowed by *</p>
+    <h2>contact Information</h2>
+    <!--Form input types i.e text,number,date,email etc-->
+
+    <p>Name: * <input type="text" name="name" id="name" required></p>
+    <!--radio button-->
+    <fieldset>
+        <legend>Gender *</legend>
+    <p>
+        Male: <input type="radio" name="gender" id="male" required> 
+    Female: <input type="radio" name="gender" id="female" required>
+    </p>
+</fieldset>
+<!--text area for address-->
+<p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+<p>Email: *<input type="email" name="emailadd" id="emailadd" required></p>
+<p>Pincode: *<input type="number" name="pincode" id="pincode" required></p>
+
+<h2>payment Information</h2>
+<!--dropdown menu-->
+<p>
+    Card Type: *<select name="card_type" id="Card_type">required
+        <option value="">--Select a card type--</option>
+        <option value="visa">Visa</option>
+
+    </select>
+
+</p>
+<p>Card number: *<input type="number" name="cardnum" id="cardnum" required></p>
+<p>Expiration Date: <input type="date" name="exp" id="exp"></p>
+<p>CVV: * <input type="password" name="cvv" id="cvv"required></p>
+<!--button-->
+
+<input type="Submit" value="pay now"> 
+
+</div>
+
+</form>
+</body>
+</html>

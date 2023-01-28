@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
+       }
+       .boxes{
+       
+        background-color: yellow;
+        /* height: 50px; */
+       }
+       .box1{
+        grid-row-start: 1;
+        grid-row-end: 60;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        /* height: 640px; */
+
+       }
+       .box2{
+        grid-row-start: 1;
+        grid-row-end: 8;
+        grid-column-start: 2;
+        grid-column-end: 8;
+        /* height: 640px; */
+
+       }
+       .box3{
+        grid-row-start: 8;
+        grid-row-end: 52;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        /* height: 640px; */
+
+       }
+       .box4{
+        grid-row-start: 8;
+        grid-row-end: 52;
+        grid-column-start: 3;
+        grid-column-end: 8;
+        /* height: 640px; */
+
+       }
+       .box5{
+        grid-row-start: 52;
+        grid-row-end: 60;
+        grid-column-start: 2;
+        grid-column-end: 8;
+        /* height: 640px; */
+
+       }
+       
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="boxes box1">Nav</div>
+    <div class="boxes box2">Header</div>
+    <div class="boxes box3">Article</div>
+    <div class="boxes box4">Ads</div>
+    <div class="boxes box5">Footer</div>
+  </div>
+
+    
+</body>
+</html>

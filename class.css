@@ -1,0 +1,24 @@
+.special{
+    color: orangered;
+    font-weight: bold;
+}
+span.special{
+    color:aqua;
+}
+li em{
+    color:blueviolet;
+}
+a:hover{
+    color:darkkhaki;
+}
+body h1+p .special{
+    color:darkslateblue;
+    padding: 5px;
+}
+#heading{
+    color:lightgreen;
+    background-color: beige;
+}
+p#one{
+    color: darkorchid;
+}

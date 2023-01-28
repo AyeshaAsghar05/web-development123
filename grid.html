@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+            grid-gap: 20px;
+             grid-auto-rows: minmax(100px,auto);
+            grid-auto-columns: minmax(50px,auto); 
+            column-gap: 120px;
+            row-gap: 120px;
+
+        }
+        .items{
+            background-color: bisque;
+            border: 3px solid blue;
+            border-radius: 3px;
+
+        }
+        #item-1{
+        
+        grid-column-start: 1;
+    grid-column-end: 5;   }
+    .item1-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+
+    }
+    .nested-item{
+        border: 3px solid chartreuse;
+        background-color: lightcoral;
+
+    }
+        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="items item1-container" id="itam-1" >
+        <div class="nested-item">boxinBox 1</div>
+        <div class="nested-item">boxinBox 2</div>
+        <div class="nested-item">boxinBox 3</div>
+    </div>
+
+        <div class="items" id="item-2">Box 2</div>
+        <div class="items">Box 3</div>
+        <div class="items">Box 4</div>
+        <div class="items">Box 5</div>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

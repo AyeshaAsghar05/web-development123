@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zindex</title>
+    <style>
+        div#leyer1{
+            position: absolute;
+            z-index: 1;
+            top: 100px;
+            width: 150px;
+            height: 100px;
+            padding: 90px;
+            margin: 30px;
+            background-color: aquamarine;
+
+        }
+        div#leyer2{
+            position: absolute;
+            top: 50px;
+            width: 100px;
+            height: 100px;
+            padding: 50px;
+            margin: 70px;
+            background-color: yellow;
+
+            z-index: 4;
+
+        }
+        div#leyer3{
+            z-index: 3;
+            position: absolute;
+            top: 200px;
+            width: 180px;
+            height: 100px;
+            padding: 20px;
+            margin: 30px;
+            background-color: green;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="leyer1">this is layer 1</div>
+    <div id="leyer2">this is layer 2
+    </div>
+    <div id="leyer3">this is layer 3</div>
+</body>
+</html>

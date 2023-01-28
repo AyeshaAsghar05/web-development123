@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main">Contact Information</h1>
+        <p> please fill form , required fields are followed of *</p>
+        <p>Full Name: *<input type="text" name="fname" id="123" placeholder="enter your name" required></p>
+        
+        <p>Address: *<textarea name="address" id="567" cols="20" rows="10" placeholder="write address" required></textarea></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>Male: <input type="radio" name="gender" id="987" ></p>
+            <p>Female: <input type="radio" name="gender" id="989"></p>
+
+        </fieldset>
+        <p>Email: <input type="email" name="email" id="433"></p>
+
+        <p>Contact: <input type="number" name="pnum" id="333" placeholder="enter number"></p>
+        <p>Country: <select name="country" id="875">
+            <option value="">--country information--</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="china">china</option>
+            <option value="uk">uk</option>
+            <option value="france">france</option>
+        </select>
+        
+        </p>
+        <p>message: <textarea name="message" id="765" cols="30" rows="10" placeholder="enter message"></textarea></p>
+        <input type="button" value="send message">
+        
+        
+    </div>
+
+    
+    </form>
+</body>
+</html>

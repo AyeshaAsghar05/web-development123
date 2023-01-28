@@ -1,0 +1,6 @@
+li[class]{
+    font-size: 300%;
+}
+li[class~="a"]{
+    color: blue;
+}

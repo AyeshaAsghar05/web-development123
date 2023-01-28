@@ -1,0 +1,18 @@
+/* table styling <!--selectorr--> */
+table,td,tr,th{
+
+    border: 4px solid black;
+    
+    border-color: black;
+    padding: 20px;
+    margin: 20px;
+    border-collapse:collapse;
+    border-spacing: 30px;
+}
+td{
+    color: rgb(223, 49, 78);
+
+}
+th{
+    color: rgb(12, 40, 199);
+}
